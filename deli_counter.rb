@@ -13,16 +13,16 @@ def line(people_array)
     puts line_string
   end
 end
-
+COUNTER = 1
 # def take_a_number(people_array,person_name)
 #   people_array << person_name 
 #   puts "Welcome, #{person_name}. You are number #{people_array.length} in line."
 # end
 def take_a_number(people_array)
-  counter = 1
-  counter += 1
-  people_array << counter
-    puts "Welcome, you are number #{counter}"
+
+  COUNTER += 1
+  people_array << COUNTER
+    puts "Welcome, you are number #{COUNTER}"
 end
 end
 
