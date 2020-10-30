@@ -22,7 +22,10 @@ def take_a_number(people_array)
   counter = 1
   counter += 1
   people_array << counter
-  Puts "Welcome, you are number #{people_array[]}"
+    puts "Welcome, you are number #{counter}"
+end
+end
+
 
 
 def now_serving(people_array)
