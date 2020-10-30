@@ -19,7 +19,8 @@ end
 #   puts "Welcome, #{person_name}. You are number #{people_array.length} in line."
 # end
 def take_a_number(people_array)
-  Puts "Welcome, you are number #{people_array.length}"
+  counter = 1
+  Puts "Welcome, you are number #{people_array[0]}"
 
 
 def now_serving(people_array)
